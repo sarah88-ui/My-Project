@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.search {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 30px;
+    button {
+       background-color: white;
+       border: rgb(149, 202, 251), solid;
+       border-radius: 10px;
+       width: 10%;
+       padding: 4px;
+       margin-right: 14%;
+    }
+    button:hover {
+        background-color: rgb(189, 234, 252);
+    }
+    .searchbar {
+        border: rgb(149, 202, 251), solid;
+        border-radius: 10px;
+        text-align: center;
+        width: 60%;
+        padding: 5px;
+        margin-left: 14%;
+    }
+}

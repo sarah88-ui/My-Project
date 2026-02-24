@@ -1,0 +1,29 @@
+.boxs {
+    display: flex;
+    justify-content: space-around;
+    margin: 2%;
+}
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  padding: 3%;
+  border: rgb(174, 174, 174), solid, 1px;
+  border-radius: 15px;
+  width: 43%;
+  height: auto;
+  h4 {
+    font-weight: 90;
+    margin-bottom: 8%;
+    display: flex;
+    line-height: 2;
+    gap: 3px;
+  }
+  h2 {
+    margin-top: 4%;
+    margin-bottom: 4%;
+   }
+   ol {
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+   }
+}

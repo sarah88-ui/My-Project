@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: o;
+}
+.footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    line-height: 30px;
+    gap: 15px;
+    h2 {
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    p {
+        font-size: 13px;
+        text-align: start;
+    }
+}
+.end {
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    p {font-size: 12px;}
+    h4 {
+        font-size: 14px;
+    }
+}
