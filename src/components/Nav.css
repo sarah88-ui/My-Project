@@ -1,6 +1,6 @@
 Nav{
     background-color: rgb(168, 232, 255);
-    border-radius: 10px;
+    /* border-radius: 10px; */
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -26,4 +26,12 @@ Nav{
     background-color: rgb(202, 239, 254);
     padding: 10px;
     border-radius: 10px;
+}
+@media (max-width:500px) {
+    .title {
+        font-size: 18px;
+    }
+    .nav-link {
+        font-size: 12px;
+    }
 }

@@ -8,7 +8,7 @@
     background-color: rgb(232, 233, 233);
     border-radius: 25px;
     margin: 2%;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
 }
 .navi {
     border: none;
@@ -20,7 +20,7 @@
 }
 .navi:hover{
     background-color: white;
-    background-size: cover;
+    /* background-size: cover; */
     transition: 0.4s ease;
     border-radius: 20px;
     text-align: center;
@@ -144,3 +144,16 @@
     height: 50vh;
     margin-bottom: 20px;
   }
+@media (max-width:500px) {
+    .navigation {
+        height: 4vh;
+    }
+    .navi {
+        font-size: 11px;
+        width: 18%;
+        padding: 6px;
+    }
+    .season-title {
+        font-size: 23px;
+    }
+}
