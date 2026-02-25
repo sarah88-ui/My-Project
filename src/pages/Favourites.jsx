@@ -4,11 +4,13 @@ import Footer from '../components/Footer';
 import './Favourites.css'
 import LocalAirportIcon from '@mui/icons-material/LocalAirport';
 import CreditCardIcon from '@mui/icons-material/CreditCard';
+import pageImg from '../assets/image/weather-6.jpg'
 
 const Favourites = () => {
   return (
     <div>
       <Nav/>
+      <img className='home-img' src={pageImg} alt="home-img" />
         <section className='boxs'>
               <div className='box'>
                   <h4><LocalAirportIcon /> Favourite places</h4>

@@ -2,11 +2,13 @@ import React from 'react'
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import './Forecast.css'
+import pageImg from '../assets/image/weather-6.jpg'
 
 const Forecast = () => {
   return (
     <div>
      <Nav/>
+     <img className='home-img' src={pageImg} alt="home-img" />
       <div className='p-tips'>
               <div className='p-box'>
                 <div className='p-info'>

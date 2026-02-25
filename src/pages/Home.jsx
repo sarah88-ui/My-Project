@@ -7,6 +7,7 @@ import Cards from '../components/Cards';
 import Footer from '../components/Footer';
 import './Home.css';
 import homeImg from '../assets/image/weather-1.jpg'
+import homeImg1 from '../assets/image/weather-3.jpg'
 // import button from '@mui/material/Button';
 
 function Home() {

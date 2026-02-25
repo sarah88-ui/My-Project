@@ -7,6 +7,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+    margin-top: 20px;
     margin-bottom: 30px;
     button {
        background-color: white;
