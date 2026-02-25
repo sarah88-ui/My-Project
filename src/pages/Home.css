@@ -32,3 +32,6 @@ box-sizing: border-box;
     height: 50vh;
     margin-bottom: 20px;
   }
+.card {
+  align-items: center;
+}

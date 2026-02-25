@@ -52,11 +52,11 @@ function Home() {
             {isLoading && <p>Loading...</p>}
             {error && <p style={{ color: "red" }}>{error}</p>}
             <WeatherCard weather={weather} />
-            {/* <div className='card'> */}
+            <div className='card'>
             {/* <img className='home-img' src={homeImg} alt="home-img" /> */}
               <Cards/>
               <img className='home-img' src={homeImg} alt="home-img" />
-            {/* </div> */}
+            </div>
             <button className='home-button' path='/Forecast'>Learn More</button>
         </div>
             <Footer/>

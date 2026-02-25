@@ -29,12 +29,12 @@ Nav{
 }
 @media (max-width:500px) { 
     .title {
-        font-size: 18px;
+        font-size: 17px;
         /* padding-bottom: 4px; */
 
     }
     .nav-link {
         font-size: 12px;
-        /* padding-top: 6px; */
+        padding-top: 6px;
     }
 }
