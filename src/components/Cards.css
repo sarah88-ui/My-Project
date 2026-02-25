@@ -27,4 +27,13 @@
 background-color: rgb(138, 220, 253);
 transition: ease-in, 0.6ms;
 }
-    
+@media (max-width:500px) {
+  .cards {
+    display: list-item;
+    justify-items: center;
+
+  }
+  .card-1 {
+     width: 80%;
+  }
+}
