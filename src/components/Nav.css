@@ -27,14 +27,14 @@ Nav{
     padding: 10px;
     border-radius: 10px;
 }
-@media (max-width:500px) {
+@media (max-width:500px) { 
     .title {
         font-size: 18px;
-        /* padding-bottom: 4px; */
+        padding-bottom: 4px;
 
     }
     .nav-link {
-        font-size: 12px;
+        font-size: 11px;
         padding-top: 6px;
     }
 }
