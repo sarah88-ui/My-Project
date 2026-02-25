@@ -30,7 +30,7 @@ Nav{
 @media (max-width:500px) {
     .title {
         font-size: 18px;
-        padding-bottom: 4px;
+        /* padding-bottom: 4px; */
 
     }
     .nav-link {
