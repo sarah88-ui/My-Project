@@ -17,7 +17,7 @@ function Home() {
   const [error, setError] = useState("");
   
 //   const handleSearch = () => {
-//     console.log("Searching for:", city);
+//   console.log("Searching for:", city);
 
   const handleSearch = async () => {
   if (!city) return;
@@ -57,7 +57,7 @@ function Home() {
               <Cards/>
               <img className='home-img' src={homeImg} alt="home-img" />
             {/* </div> */}
-             <button className='home-button' path='/Forecast'>Learn More</button>
+            <button className='home-button' path='/Forecast'>Learn More</button>
         </div>
             <Footer/>
       </div>

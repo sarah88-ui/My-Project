@@ -5,12 +5,14 @@ import Footer from '../components/Footer';
 import './About.css';
 import SunnyIcon from '@mui/icons-material/Sunny';
 import seasonImg from '../assets/image/weather-2.avif'
+import pageImg from '../assets/image/weather-6.jpg'
 
 const About = () => {
     const [activeTab, setActiveTab] = useState("Europe");
   return (
     <div>
       <Nav/>
+      {/* <img className='home-img' src={pageImg} alt="home-img" /> */}
       <h1 className='season-title'>SEASONS OF THE YEAR</h1>
       <section className='navigation'>
         {["Europe", "N.America", "S.America", "Australia", "Asia", "Africa", "Antractica"].map(tab => (
