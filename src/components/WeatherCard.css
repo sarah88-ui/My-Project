@@ -8,3 +8,9 @@
     border-radius: 15px;
     background-color: azure;
 }
+@media (max-width:500px) {
+    .weather-card{
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
