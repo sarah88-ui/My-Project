@@ -15,13 +15,13 @@ const Forecast = () => {
                     <div className='p-title'>
                       <h3>Yearly Forcast</h3>
                     </div>
-                  <ol>Africa: Expect generally warm to hot conditions with strong seasonal rains in the tropics and dry heat in the north and south.</ol>
-                  <ol>Asia: Mostly warm summers and varied rainfall patterns with monsoons in the south and milder conditions in temperate zones.</ol>
-                  <ol>Europe: Usually mild to warm with wetter spells in the west and heatwaves possible in summer against a backdrop of overall warming.</ol>
-                  <ol>North America: A mix of hot summers, cold northern winters, and variable rainfall patterns from drought to storms.</ol>
-                  <ol>South America: Typically tropical warmth with heavy rain in the Amazon, dry conditions in parts of the south, and mild highland climates.</ol>
-                  <ol>Australia: Mostly warm and dry overall, with wet northern monsoon seasons and hot inland conditions.</ol>
-                  <ol>Antarctica: Still extremely cold year‑round with icy landscapes dominating, slightly milder near the coasts in summer.</ol>
+                    <ol>Africa: Expect generally warm to hot conditions with strong seasonal rains in the tropics and dry heat in the north and south.</ol>
+                    <ol>Asia: Mostly warm summers and varied rainfall patterns with monsoons in the south and milder conditions in temperate zones.</ol>
+                    <ol>Europe: Usually mild to warm with wetter spells in the west and heatwaves possible in summer against a backdrop of overall warming.</ol>
+                    <ol>North America: A mix of hot summers, cold northern winters, and variable rainfall patterns from drought to storms.</ol>
+                    <ol>South America: Typically tropical warmth with heavy rain in the Amazon, dry conditions in parts of the south, and mild highland climates.</ol>
+                    <ol>Australia: Mostly warm and dry overall, with wet northern monsoon seasons and hot inland conditions.</ol>
+                    <ol>Antarctica: Still extremely cold year‑round with icy landscapes dominating, slightly milder near the coasts in summer.</ol>
                 </div>
               </div>
               <div className='p-box'>

@@ -137,7 +137,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: rgb(82, 82, 82);
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 .season-img {
     margin: 0;
@@ -150,6 +150,7 @@
         height: 4vh;
     }
     .navi {
+        color: black;
         font-size: 11px;
         width: 18%;
         padding: 6px;
@@ -157,4 +158,31 @@
     .season-title {
         font-size: 23px;
     }
+    .season-img {
+        height: 30vh;
+    }
+    .box-1 {
+        border: rgb(174, 174, 174), solid, 2px;
+        h5 {
+        border: rgb(174, 174, 174), solid, 2px;
+        }
+        }
+    .box-2 {
+        border: rgb(174, 174, 174), solid, 2px;
+        h5 {
+        border: rgb(174, 174, 174), solid, 2px;
+        }
+        }
+    .box-3 {
+        border: rgb(174, 174, 174), solid, 2px;
+        h5 {
+        border: rgb(174, 174, 174), solid, 2px;
+        }
+        }
+    .box-4 {
+        border: rgb(174, 174, 174), solid, 2px;
+        h5 {
+        border: rgb(174, 174, 174), solid, 2px;
+        }
+        }
 }

@@ -12,7 +12,7 @@ const About = () => {
   return (
     <div>
       <Nav/>
-      {/* <img className='home-img' src={pageImg} alt="home-img" /> */}
+      <img className='home-img' src={pageImg} alt="home-img" />
       <h1 className='season-title'>SEASONS OF THE YEAR</h1>
       <section className='navigation'>
         {["Europe", "N.America", "S.America", "Australia", "Asia", "Africa", "Antractica"].map(tab => (

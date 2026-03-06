@@ -35,3 +35,8 @@ box-sizing: border-box;
 .card {
   align-items: center;
 }
+@media (max-width:500px) {
+  .home-img{
+    height: 18vh;
+  }
+}

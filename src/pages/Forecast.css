@@ -31,3 +31,8 @@
     margin-left: 5%;
     margin: 3%;
 }
+@media (max-width:500px) {
+    .p-box {
+        border: solid, gray, 2px;
+    }
+}

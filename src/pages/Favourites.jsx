@@ -13,7 +13,7 @@ const Favourites = () => {
       <img className='home-img' src={pageImg} alt="home-img" />
         <section className='boxs'>
               <div className='box'>
-                  <h4><LocalAirportIcon /> Favourite places</h4>
+                  <h4><LocalAirportIcon /> Places to visit</h4>
                   <h2>In Summer</h2>
                   <ol>Santorini, Greece - Whitewashed buildings, blue-domed churches, and stunning sunsets over the Aegean Sea make it a dreamy summer escape.</ol>
                   <br />
